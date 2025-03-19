@@ -1,0 +1,57 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+
+
+
+h1 {
+    font-size: 3rem; 
+    text-align: center;
+    color: #1c1e34; 
+    font-family: 'Oswald', sans-serif; 
+    font-style: normal;
+    letter-spacing: 0.1rem;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    line-height: 1.6;
+}
+
+main {
+  padding: 1rem;
+}
+
+/* Make more space if there is a paragraph before the heading */
+p + h2 {
+  padding-block-start: 2rem;
+}
+
+
+a:link {
+  color: #999;
+}
+
+
+a:visited {
+  color: #888;
+}
+
+
+a:hover {
+  color: #666;
+}
+
+
+a:active {
+  color: #999;
+}

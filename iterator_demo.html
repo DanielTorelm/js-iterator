@@ -4,14 +4,36 @@
 <head>
   <meta charset="utf-8">
   <title>Javascript dtIterator</title>
+  <link rel="stylesheet" type="text/css" href="dt.css"> 
 </head>
 
 <body>
-<h1>dtIterator</h1>
-<p>Använd konsolen i webbläsaren för att iterera</p>
-<p>Använd funktionen dtIterator, du kan välja på följande parametrar (en i taget). dtCars, dtFruit, dtObject, dtJson. dtCars är av typen array, dtFruit array och dtObject is a javascript object, dtJson är ett JSON-object. Ex i konsolen i webbläsaren skriv: dTIterator(dtFruit), bör ge en array av frukt;</p>
 
-<script src="js-iterator.js"></script>    
+  <main>
+    <h1>dtIterator</h1>
+
+   
+    <h2>How to use</h2>
+    <p>TLDR: run  <b>dtIterator(dtArray)</b> in browser console.</p>
+    <p>
+      Use the console in your browser to iterate using the dtIterator function, you can choose one the following parameters: (one at a time). dtArray, dtObject, dtMap or dtSet. 
+    </p>
+    <p>
+      dtArray is of type array, dtObject is a javascript object, dtMap is a Map object, dtSet is a Set. 
+    </p>
+    <p>
+      Example usage, in the console of the browser type: <b>dtIterator(dtArray)</b>. This should yield an iterated array.
+    </p>
+
+    <h2>About</h2>
+    <p>Born out of frustration there is so many loops and different objects that needs iterate differently in javascript. This is more of demo then useful library. For example right now it has pre set up data.structures and you use the web terminal to get output. Let me know if you like to see a version build more like a helper library.</p>
+
+    <p>Made by Daniel Torelm</p>
+
+  </main>
+
+  <script src="js-iterator.js"></script> 
+   
 </body>
 </html>
 
